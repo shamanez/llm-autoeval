@@ -22,6 +22,10 @@ apt update
 apt install -y screen vim git-lfs
 screen
 
+# Upgrade pip to the latest version
+python3 -m pip install --upgrade pip
+
+
 # Install common libraries
 pip install -q requests accelerate sentencepiece pytablewriter einops protobuf
 
